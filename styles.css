@@ -8,23 +8,38 @@ body {
 }
 
 .top-box {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
     height: 60px;
     padding: 6px;
 }
 
 .img-box {
-    min-height: 92px;
-    max-height: 290px;
-    height: calc(100% - 560px);
     display: flex;
     justify-content: center;
     align-items: center;
+    min-height: 92px;
+    max-height: 290px;
+    height: calc(100% - 560px); 
 }
 
 .main-box {
     max-height: 160px;
     padding: 20px;
     font-size: 14px;
+}
+
+.page-links {
+    padding: 20px;
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    
+    color: #3c4043;
+
+    font-family: arial,sans-serif;
+    text-decoration: none;
 }
 
 .search-box {
